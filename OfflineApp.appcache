@@ -2,15 +2,24 @@ CACHE MANIFEST
 
 CACHE:
 nsb/fastclick.js
-nsb/messages.js
-images/bg.jpg
+nsb/images/icons-36-white.png
 images/splashscreen.jpg
-nsb/images/196.png
-nsb/images/LauncherIcon57.png
-nsb/nsbstyle.css
+images/bg.jpg
+nsb/images/ajax-loader.gif
 nsb/hfunc.js
+images/icon.png
+nsb/messages.js
+nsb/jquery.mobile.js
+nsb/jquery.mobile.css
+nsb/images/196.png
+nsb/images/icons-18-white.png
+nsb/jquery.js
+nsb/complexfunctions.js
+nsb/nsbstyle.css
+nsb/images/icons-18-black.png
+nsb/images/icons-36-black.png
 
 NETWORK:
 *
 
-# buildtime: 1393575444.67
+# buildtime: 1393577724.73

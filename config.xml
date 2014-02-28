@@ -3,7 +3,7 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.nsbasic.WWTBM"
-version = "1.0.2">
+version = "1.0.3">
 
 <name>WWTBM</name>
 <description></description>
