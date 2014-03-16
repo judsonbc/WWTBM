@@ -2,10 +2,10 @@
 <html manifest="OfflineApp.appcache">
 <head>
 <meta charset="utf-8">
-<title>WWTBM</title>
-<meta name="generator" content="NSB/AppStudio 3.3.0.0$" />
-<meta name="date" content="2014-02-28 16:55:24.755000" />
-<meta name="version" content="1.0.3" />
+<title>SqueezeUrMind</title>
+<meta name="generator" content="NSB/AppStudio 3.3.0.1$" />
+<meta name="date" content="2014-03-16 17:19:24.515000" />
+<meta name="version" content="1.0.18" />
 <meta name="viewport" content="width=device-width minimum-scale=1.0, maximum-scale=0.6667, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="YES" />
 <meta name="mobile-web-app-capable" content="yes" />
@@ -14,7 +14,7 @@
 <meta name="copyright" content="Copyright 2013 ABC Company" />
 <link rel="apple-touch-icon" href="images/icon.png" />
 <link rel="apple-touch-startup-image" href="images/splashscreen.jpg" />
-<link rel="shortcut icon" sizes="196x196" href="nsb/images/196.png"/>
+<link rel="shortcut icon" sizes="196x196" href="images/icon.png"/>
 <script src="nsb/hfunc.js"></script>
 <script src="nsb/messages.js"></script>
 <link href="nsb/nsbstyle.css" rel="stylesheet">
@@ -23,28 +23,74 @@
 <script src="nsb/jquery.js"></script>
 <script src="nsb/jquery.mobile.js"></script>
 <link href="nsb/jquery.mobile.css" rel="stylesheet">
+<link href="nsb/css/style.css" rel="stylesheet">
 
 
 
 <style type="text/css">
-#Image1 {position:absolute; left:282px; right:auto; top:37px; bottom:auto; height:20px; width:26px}
-#Answer1 {position:absolute; left:64px; right:auto; top:297px; bottom:auto; height:17px; width:222px}
-#Answer2 {position:absolute; left:65px; right:auto; top:329px; bottom:auto; height:17px; width:222px}
-#Answer3 {position:absolute; left:65px; right:auto; top:361px; bottom:auto; height:17px; width:222px}
-#Answer4 {position:absolute; left:65px; right:auto; top:393px; bottom:auto; height:17px; width:222px}
-#Question {position:absolute; left:21px; right:auto; top:230px; bottom:auto; height:52px; width:279px}
+#Image1 {position:absolute; left:282px; right:auto; top:56px; bottom:auto; height:8px; width:26px}
+#Answer1 {position:absolute; left:44px; right:auto; top:293px; bottom:auto; height:24px; width:240px}
+#Answer2 {position:absolute; left:44px; right:auto; top:325px; bottom:auto; height:24px; width:240px}
+#Answer3 {position:absolute; left:44px; right:auto; top:357px; bottom:auto; height:24px; width:240px}
+#Answer4 {position:absolute; left:44px; right:auto; top:389px; bottom:auto; height:24px; width:240px}
+#Question {position:absolute; left:24px; right:auto; top:192px; bottom:auto; height:80px; width:280px}
 #NavBar1 {position:absolute; left:0px; right:auto; top:423px; bottom:auto; height:40px; width:320px}
+#Image2 {position:absolute; left:152px; right:auto; top:8px; bottom:auto; height:40px; width:48px}
+#Image3 {position:absolute; left:208px; right:auto; top:8px; bottom:auto; height:40px; width:48px}
+#Image4 {position:absolute; left:264px; right:auto; top:8px; bottom:auto; height:40px; width:48px}
+#Score {position:absolute; left:40px; right:auto; top:16px; bottom:auto; height:20px; width:104px}
+#ProgressBar1 {position:absolute; left:16px; right:10px; top:160px; bottom:auto; height:20px; width:288px}
+#GameO {position:absolute; left:24px; right:auto; top:264px; bottom:auto; height:160px; width:272px}
+#NavBar2 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:320px}
+#Audio2 {position:absolute; left:192px; right:auto; top:376px; bottom:auto; height:20px; width:100px}
+#Audio3 {position:absolute; left:199px; right:auto; top:322px; bottom:auto; height:20px; width:100px}
+#Audio4 {position:absolute; left:192px; right:auto; top:280px; bottom:auto; height:20px; width:100px}
+#Image5 {position:absolute; left:16px; right:auto; top:56px; bottom:auto; height:44px; width:44px}
+#TitleBar1 {position:absolute; left:96px; right:auto; top:332px; bottom:auto; height:0px; width:0px}
+#NavBar3 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:320px}
+#Image6 {position:absolute; left:48px; right:auto; top:200px; bottom:auto; height:44px; width:44px}
+#TitleBar2 {position:absolute; left:152px; right:auto; top:336px; bottom:auto; height:0px; width:0px}
+#NavBar4 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:32px; width:320px}
+#Label1 {position:absolute; left:8px; right:auto; top:272px; bottom:auto; height:104px; width:296px}
+#Label1Copy {position:absolute; left:8px; right:auto; top:64px; bottom:auto; height:104px; width:288px}
+#Audio1 {position:absolute; left:45px; right:auto; top:387px; bottom:auto; height:20px; width:100px}
+#Image7 {position:absolute; left:160px; right:auto; top:0px; bottom:auto; height:460px; width:152px}
+#l1 {position:absolute; left:64px; right:auto; top:402px; bottom:auto; height:16px; width:176px}
+#l2 {position:absolute; left:64px; right:auto; top:380px; bottom:auto; height:16px; width:176px}
+#l3 {position:absolute; left:64px; right:auto; top:360px; bottom:auto; height:16px; width:176px}
+#l4 {position:absolute; left:64px; right:auto; top:337px; bottom:auto; height:16px; width:176px}
+#l5 {position:absolute; left:64px; right:auto; top:316px; bottom:auto; height:16px; width:176px}
+#l10 {position:absolute; left:64px; right:auto; top:194px; bottom:auto; height:16px; width:176px}
+#l9 {position:absolute; left:64px; right:auto; top:216px; bottom:auto; height:16px; width:176px}
+#l8 {position:absolute; left:64px; right:auto; top:236px; bottom:auto; height:16px; width:176px}
+#l7 {position:absolute; left:64px; right:auto; top:258px; bottom:auto; height:16px; width:176px}
+#l6 {position:absolute; left:64px; right:auto; top:282px; bottom:auto; height:16px; width:176px}
+#l15 {position:absolute; left:64px; right:auto; top:74px; bottom:auto; height:16px; width:176px}
+#l14 {position:absolute; left:64px; right:auto; top:95px; bottom:auto; height:16px; width:176px}
+#l13 {position:absolute; left:64px; right:auto; top:116px; bottom:auto; height:16px; width:176px}
+#l12 {position:absolute; left:64px; right:auto; top:138px; bottom:auto; height:16px; width:176px}
+#l11 {position:absolute; left:64px; right:auto; top:162px; bottom:auto; height:16px; width:176px}
+#NavBar5 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:320px}
 body * {font-family:helvetica}
 </style>
 </head>
 <body style="margin:0px;">
 <script src="13.js"></script>
-<div data-role="page" id="Page_WWTBM" data-theme="c" style="">
+<div data-role="page" id="Page_SqueezeUrMind" data-theme="c" style="">
 <form id="Form1" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:320px; ">
 <script src="15.js"></script>
 </form>
-</div>
+<form id="Form2" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:320px; ">
 <script src="17.js"></script>
+</form>
+<form id="Form3" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:320px; ">
+<script src="19.js"></script>
+</form>
+<form id="Form4" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:320px; ">
+<script src="21.js"></script>
+</form>
+</div>
+<script src="23.js"></script>
 
 </body>
 </html>
